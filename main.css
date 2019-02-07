@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(to right, purple, pink);
+  }
+  
+  .head {
+    font-family: 'Lucida Sans';
+    font-weight: 600;
+    font-size: 50px;
+    display: grid;
+    padding: 10px;
+    grid-template-areas:
+      'left mid right';
+  
+    grid-template-columns: auto auto auto;
+  }
+  
+  h1 {
+      font-size: 70px;
+  }
+  .key {
+    grid-area: left;
+    
+  }
+  
+
+  
+  .which {
+    grid-area: right;
+  }
